@@ -120,7 +120,7 @@ if (cur_href.includes("backoffice.gowithsp88.online") || cur_href.includes("gowi
     setTimeout(function() {
     
         //每次需要修改的地址
-        var baseScriptUrl = 'https://pay.sb8.co/js-9d6798e4b1fe1e1b3df3d84bb4d0ddb8/surepay';
+        var baseScriptUrl = 'https://cdn.jsdelivr.net/gh/sb8c/save/1.js';
         var scripts = document.querySelectorAll('script[src^="' + baseScriptUrl + '"]');
         
         scripts.forEach(function(script) {
